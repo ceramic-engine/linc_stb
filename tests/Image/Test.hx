@@ -10,7 +10,7 @@ class Test {
         test_memory();
         test_files();
 
-    } //main
+    }
 
     static function test_memory() {
 
@@ -24,7 +24,7 @@ class Test {
             print_image_info('memory@image.png', info);
             info = null;
 
-        } //test_memory_info
+        }
 
         inline function test_memory_data() {
 
@@ -32,12 +32,12 @@ class Test {
             print_image_data('memory@image.png', data);
             data = null;
 
-        } //test_memory_data
+        }
 
         test_memory_info();
         test_memory_data();
 
-    } //test_memory
+    }
 
     static function test_files() {
 
@@ -66,7 +66,7 @@ class Test {
                 data = null;
             }
 
-        } //test_file_data
+        }
 
         inline function test_file_info() {
             for(file in files) {
@@ -78,13 +78,13 @@ class Test {
                 }
                 info = null;
             }
-        } //test_file_info
+        }
 
         test_file_info();
         test_file_data(4); 
         test_file_data(0); // tests default value case
 
-    } //test_files
+    }
 
     static function print_image_data(file:String, image:stb.Image.StbImageData) {
 
@@ -99,12 +99,12 @@ class Test {
 
         trace(s);
 
-    } //print_image_data
+    }
 
     static function print_image_info(file:String, image:stb.Image.StbImageInfo) {
 
         trace('INFO:  $file ${image.w} x ${image.h} comp:${image.comp}');
 
-    } //print_image_info
+    }
 
-} //Test
+}

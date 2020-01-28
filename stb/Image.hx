@@ -7,7 +7,7 @@ typedef StbImageInfo = {
     var w: Int;
     var h: Int;
     var comp: Int;
-} //StbImageInfo
+}
 
 typedef StbImageData = {
 
@@ -16,7 +16,7 @@ typedef StbImageData = {
     var req_comp: Int;
     var bytes: BytesData;
 
-} //StbImageData
+}
 
 @:keep
 #if !display
@@ -84,4 +84,4 @@ extern class Image {
         @:native("stbi_ldr_to_hdr_scale")
         static function ldr_to_hdr_scale(scale:Float):Void;
 
-} //Image
+}

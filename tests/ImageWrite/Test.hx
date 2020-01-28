@@ -29,7 +29,7 @@ class Test {
 
     }
 
-} //Test
+}
 
 class HDRWrite {
 
@@ -64,6 +64,6 @@ class HDRWrite {
         var result = stb.ImageWrite.write_hdr("test.hdr", 2, 2, 4, bytes_data, 0, size);
         trace("ImageWrite.write_hdr result: " + (result == 0 ? "Error" : "Success"));
 
-    } //test
+    }
 
-} //HDRWrite
+}

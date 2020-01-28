@@ -22,4 +22,4 @@ extern class ImageWrite {
 	@:native("linc::stb_image_write::write_png")
 	static function write_png(filename:String, x:Int, y:Int, comp:Int, bytes:BytesData, byteOffset:Int, byteLength:Int, stride_in_bytes:Int):Int;
 
-} //ImageWrite
+}

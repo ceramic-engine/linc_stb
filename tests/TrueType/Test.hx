@@ -11,7 +11,7 @@ class Test {
         test_pack_font_range();
         test_pack_font_ranges();
         
-    } //main
+    }
     
     static function test_bake_font_bitmap() {
 
@@ -30,7 +30,7 @@ class Test {
         // save the bitmap as png
         stb.ImageWrite.write_png('test.png', w, h, 1, bytes, 0, bytes.length, w);
         
-    } //test_bake_font_bitmap
+    }
     
     static function test_pack_font_range() {
         
@@ -46,7 +46,7 @@ class Test {
         // save the bitmap as png
         stb.ImageWrite.write_png('test2.png', w, h, 1, bytes, 0, bytes.length, w);
         
-    } //test_pack_font_range
+    }
     
     static function test_pack_font_ranges() {
         
@@ -70,7 +70,7 @@ class Test {
         // save the bitmap as png
         stb.ImageWrite.write_png('test3.png', w, h, 1, bytes, 0, bytes.length, w);
 
-    } //test_pack_font_ranges
+    }
 
 
-} //Test
+}
