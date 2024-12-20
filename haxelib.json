@@ -1,0 +1,12 @@
+{
+    "name": "linc_process",
+    "url" : "https://github.com/ceramic-engine/linc_stb/",
+    "license": "MIT",
+    "tags": ["stb", "linc", "cpp"],
+    "description": "Haxe/hxcpp native bindings for stb",
+    "version": "1.0.0",
+    "releasenote": "",
+    "contributors": ["underscorediscovery", "jeremyfa"],
+    "classPath": ".",
+    "dependencies": {}
+  }

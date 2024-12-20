@@ -22,6 +22,12 @@ namespace linc {
         extern int write_png(char const *filename, int x, int y, int comp, Array<unsigned char> bytes,
             unsigned int byteOffset, unsigned int byteLength, int stride_in_bytes);
 
+        extern int write_jpg(char const *filename, int x, int y, int comp, Array<unsigned char> bytes,
+            unsigned int byteOffset, unsigned int byteLength, int quality);
+
+        extern Array<unsigned char> write_png_to_mem(int x, int y, int comp, Array<unsigned char> bytes,
+        	unsigned int byteOffset, unsigned int byteLength, int stride_in_bytes);
+
     } //stb_image_write namespace
 
 } //linc
