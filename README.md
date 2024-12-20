@@ -12,6 +12,7 @@ This is a [linc](http://snowkit.github.io/linc/) library.
 
 - [stb_image](#stb_image)
 - [stb_image_write](#stb_image_write)
+- [stb_image_resize](#stb_image_resize)
 
 
 Each library has their own readme within the header files in lib/
