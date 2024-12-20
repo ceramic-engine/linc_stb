@@ -3,9 +3,11 @@ Be sure to consult those accordingly.
 
 - lib/stb_image.h (top of file)
 - lib/stb_image_write.h (top of file)
+- lib/stb_image_resize2.h (top of file)
 
 The MIT License (MIT)
 
+Copyright (c) 2024 Jérémy Faivre
 Copyright (c) 2015 Sven Bergström, Stefan Bachmann
 Copyright (c) 2015 snõwkit contributors
 

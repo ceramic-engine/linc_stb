@@ -6,7 +6,7 @@
     "description": "Haxe/hxcpp native bindings for stb",
     "version": "1.0.0",
     "releasenote": "",
-    "contributors": ["underscorediscovery", "jeremyfa"],
+    "contributors": ["underscorediscovery", "stbachmann", "jeremyfa"],
     "classPath": ".",
     "dependencies": {}
   }
