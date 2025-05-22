@@ -3,6 +3,8 @@
     <files id='haxe'>
         <compilerflag value='-I${LINC_STB_IMAGE_RESIZE_PATH}lib/'/>
         <compilerflag value='-I${LINC_STB_IMAGE_RESIZE_PATH}linc/'/>
+        <compilerflag value='-I${LINC_STB_IMAGE_RESIZE_PATH}linc/'/>
+        <compilerflag value="-DSTBIR_NO_SIMD=1" if="STBIR_NO_SIMD" />
         <file name='${LINC_STB_IMAGE_RESIZE_PATH}linc/linc_stb_image_resize.cpp' />
     </files>
 
